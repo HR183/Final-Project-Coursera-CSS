@@ -1,4 +1,4 @@
-/* Basic Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -48,6 +48,8 @@ article p {
     background-color: #333;
     padding: 10px;
 }
+
+/* Flex Section for Navbar */
 .navbar ul {
     list-style-type: none;
     display: flex;
@@ -61,6 +63,8 @@ article p {
     text-decoration: none;
     padding: 5px 10px;
 }
+
+/* :hover */
 .navbar a:hover {
     background-color: #555;
 }
@@ -81,7 +85,7 @@ main {
     margin-top: 20px;
 }
 
-/* Image Styling using Box Model */
+/* Image Styling using Border,Padding & Border radius */
 .grid-section img, main img {
     width: 100%;
     border: 2px solid red;
@@ -89,6 +93,8 @@ main {
     border-radius: 8px;
     transition: transform 0.3s ease;
 }
+
+/* nth-child selector */
 
 .grid-section img:nth-child(even) {
     border: 2px solid blue; /* Styles for every even child */
